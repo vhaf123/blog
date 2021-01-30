@@ -4,7 +4,7 @@
     @if ($post->image)
         <img class="w-full h-72 object-cover object-center" src="{{Storage::url($post->image->url)}}" alt="">
     @else
-        <img class="w-full h-72 object-cover object-center" src="https://cdn.pixabay.com/photo/2020/11/22/20/45/venice-5767937_960_720.jpg" alt="">
+        <img class="w-full h-72 object-cover object-center" src="https://cdn.pixabay.com/photo/2020/06/21/01/50/still-life-5322950__340.jpg" alt="">
     @endif
 
     <div class="px-6 py-4">
